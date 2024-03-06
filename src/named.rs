@@ -970,13 +970,13 @@ impl NamedChain {
                 ("https://sepolia.kakarotscan.org/api", "https://sepolia.kakarotscan.org")
             }
             NamedChain::Pontem => {
-                ("----", "https://lumio.io")
+                ("-", "-")
             }
             NamedChain::Lumio => {
-                ("----", "https://lumio.io")
+                ("-", "-")
             }
             NamedChain::LumioTetsnet => {
-                ("https://testnet.lumio.io/l2_rpc", "https://lumio.io")
+                ("https://testnet.lumio.io/l2_rpc", "https://explorer.testnet.lumio.io")
             }
         })
     }
